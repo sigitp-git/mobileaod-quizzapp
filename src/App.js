@@ -21,7 +21,7 @@ class App extends React.Component {
     }
 
     async componentDidMount() {
-        document.title = "QuizBiz";
+        document.title = "MobileAOD-QuizzApp";
     }
 
     setActiveQuiz = (i) => this.setState({activeQuiz: i});
