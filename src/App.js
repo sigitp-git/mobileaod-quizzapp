@@ -32,7 +32,8 @@ class App extends React.Component {
                 <Segment className="inverted center aligned" style={{minHeight: "200px"}}>
                     <Container>
                         <Header as='h1' textAlign='center' style={{marginTop: '2em', color: 'white'}}>
-                            Welcome to MobileAOD-QuizzApp
+                            <a href='index.js'>Welcome to MobileAOD-QuizzApp</a> <br/>
+                            sigitp@
                         </Header>
                     </Container>
                 </Segment>
@@ -48,5 +49,5 @@ class App extends React.Component {
     }
 }
 
-export default App;
-//export default withAuthenticator(App);
+export default withAuthenticator(App);
+//export default App;
